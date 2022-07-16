@@ -1,0 +1,792 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.parent{
+    background-color: #3736AE;
+    color: white;
+    height: 90vh;
+    display: flex;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.parent .child1{
+    height: 80vh;
+    width: 20%;
+    background-color: transparent;
+}
+.parent .child2{
+    height: 90vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+.parent .child1 h3{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.parent .child1 h3 span{
+    color: red;
+}
+.parent .child1 .first{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    position: relative;
+}
+.first .heart{
+    font-size: 10px;
+    position: absolute;
+    left: 8px;
+    
+}
+.parent .child1 .first .act{
+    font-family: 'segoe UI';
+    font-size: 10.5px;
+    margin-left: 30px;
+}
+.parent .child1 .first .btn{
+    margin-left: 15px; 
+}
+.parent .child1 .first .btn button{
+    background-color: rgb(23, 165, 23);
+    font-size: 10px;
+    border-style: none;
+    padding: 2px 4px;
+    border-radius: 20px;
+}
+.parent .child1 .second{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    position: relative;
+}
+.second .heads{
+    font-size: 10px;
+    position: absolute;
+    left: 5px;
+}
+.parent .child1 .second .acc{
+    /* font-family: 'segoe UI'; */
+    font-size: 12px;
+    margin-left: 25px;
+}
+.parent .child1 .third{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    position: relative;
+}
+.third .icon{
+    font-size: 10px;
+    position: absolute;
+    left: 5px;
+}
+.parent .child1 .third .mess{
+    font-family: 'segoe UI';
+    font-size: 10.5px;
+    margin-left: 25px;
+}
+.parent .child1 .third .btn{
+    margin-left: 20px; 
+    border-radius: 10px;
+}
+.parent .child1 .third .btn button{
+    background-color: rgb(0, 150, 25);
+    font-size: 10px;
+    border-style: none;
+    padding: 2px 5px;
+    border-radius: 80%;
+}
+.parent .child1 .fourth{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 2px;
+    position: relative;
+}
+.fourth .fonts{
+    font-size: 10px;
+    position: absolute;
+    left: 5px;
+    font-family: 'segoe UI';
+    font-size: 10.5px;
+    margin-left: 25px;
+}
+.parent .child1 .fourth .acs{
+    /* background-color: white; */
+    font-family: 'segoe UI';
+    font-size: 10.5px;
+    margin-left: 50px;
+
+
+}
+.parent .child1 .fifth{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    position: relative 
+}
+.fifth .icons{
+    font-size: 10px;
+    position: absolute;
+    top: 97%;
+    right: 40px;
+}
+.parent .child1 .fifth .name{
+    font-family: 'segoe UI';
+    font-size: 10px;
+    margin-top: 330px;
+}
+
+
+.parent .child2 .header{
+    /* display: flex; */
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.parent .child2 .header h1{
+    color: black;
+    font-family: 'segoe UI';
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.parent .child2 .header .but{
+    margin-left: 700px;
+    margin-top: 16px;
+}
+.parent .child2 .header .but button{
+    background-color: #FD6E44;
+    color: white;
+    position: absolute;
+    top: 25px;
+    border-radius: 10px;
+    font-size: 10px;
+    border-style: none;
+    padding: 5px 8px;
+}
+
+
+.general{
+    /* background-color: white; */
+    display: flex;
+    height: 20vh;
+    padding: 5px 10px;
+    position: relative;
+    margin: 10px 20px;
+    border-radius: 20px;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+
+}
+.general .item{
+    color: white;
+    background-color: #FD6E44;
+    width: 18%;
+    height:20vh;
+    margin-left: 10px;
+    margin-top: px;
+    border-radius: 20px;
+    z-index: 1000 !important;
+    /* border-top-right-radius: 20px; */
+}
+.general .item img{
+    margin-left: 40px;
+    border-radius: 90%;
+    width: 70px;
+    height:10vh;
+    margin-top: 7px;
+    /* padding: 15px 25px; */
+    /* z-index: 1000 !important; */
+}
+.general .item h3{
+    margin-left: 60px;
+    margin-top: 5px;
+    padding: 2px 3px;
+    font-size: 15px;
+    color: white; 
+}
+.general .item p{
+    margin-left: 45px;
+    /* padding: 10px 20px; */
+    font-size: 10px;
+    color: white;
+}
+.general .container{
+    /* display: flex; */
+    background-color: transparent;
+    width: 80%;
+    border-radius: 20px;
+}
+.container .nav-bar{
+    background-color: rgb(43, 182, 43);
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    width: 108%;
+    margin-left: -40px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 20px;
+}
+.container .nav-bar .bott{
+    margin-left: 70px;
+}
+.nav-bar .bott button{
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 15px;
+    background-color: white;
+    border-style: none;
+    font-size: 10px;
+}
+.container .nav-bar .butt{
+    margin-right: 5px;
+}
+.nav-bar .butt button{
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 10px;
+    border-color: white;
+    padding: 5px 25px;
+    background-color: rgb(43, 182, 43);
+}
+.container .nav-bar .ic{
+    margin-right: 10px;
+}
+.nav-bar .ic .fa{
+    margin-top: 16px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+.container .nav-bar .text{
+    margin-right: 28px;
+    margin-top: 15px;
+    position: absolute;
+    right: 200px;
+}
+.container .nav-bar .ft{
+    margin-top: 16px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+.container .nav-bar .ed{
+    margin-top: 15px;
+    margin-right: 25px;
+    position: absolute;
+    right: 70px;
+}
+.container .content{
+    color: gray;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.container .content h5{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.container .content h4{
+    color: black;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.container .content .btt{
+    margin-left: 15px;
+}
+.container .content .btt button{
+    font-size: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.container .product{
+    position: absolute;
+    right: 330px;
+    top: 56px;
+    bottom: 10px;
+    color: gray;
+}
+.container .product h5{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.container .product h4{
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.container .product .view{
+    margin-right: 5px;
+}
+.container .product .view button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.container .market{
+    position: absolute;
+    right: 120px;
+    top: 56px;
+    bottom: 10px;
+    color: gray;
+}
+.container .market h5{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.container .market h4{
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.container .market .set{
+    margin-right: 5px;
+}
+.container .market .set button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+
+.family{
+    display: flex;
+    height: 20vh;
+    margin: 1px 18px;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.family .son{
+    background-color: rgb(136, 36, 98);
+    width: 20%;
+    height: 20vh;
+    z-index: 1000 !important;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.family .daughter{
+    /* display: flex; */
+    background-color: transparent;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+.family .son img{
+    margin-left: 40px;
+    border-radius: 90%;
+    width: 70px;
+    height:10vh;
+    margin-top: 10px;
+    /* padding: 15px 25px; */
+    /* z-index: 1000 !important; */
+}
+.family .son h3{
+    margin-left: 60px;
+    margin-top: 8px;
+    padding: 2px 3px;
+    font-size: 15px;
+    color: white; 
+}
+.family .son p{
+    margin-left: 65px;
+    /* padding: 10px 20px; */
+    font-size: 10px;
+    color: white;
+}
+.daughter .nav-bar{
+    background-color: rgb(43, 182, 43);
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    width: 110%;
+    margin-left: -70px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 20px;
+}
+.daughter .nav-bar .bott{
+    margin-left: 85px;
+}
+.nav-bar .bott button{
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 15px;
+    background-color: white;
+    border-style: none;
+    font-size: 10px;
+}
+.daughter .nav-bar .butt{
+    margin-right: 5px;
+}
+.nav-bar .butt button{
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 10px;
+    border-color: white;
+    padding: 5px 25px;
+    background-color: rgb(43, 182, 43);
+}
+.daughter .nav-bar .ic{
+    margin-right: 5px;
+}
+.nav-bar .ic .fa{
+    margin-top: 16px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.daughter .nav-bar .text{
+    margin-right: 24px;
+    margin-top: 15px;
+    position: absolute;
+    right: 200px;
+}
+.daughter .nav-bar .ft{
+    margin-top: 16px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+.daughter .nav-bar .ed{
+    margin-top: 15px;
+    margin-right: 24px;
+    position: absolute;
+    right: 70px;
+}
+.daughter .title{
+    color: gray;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.daughter .title h5{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.daughter .title h4{
+    color: black;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.daughter .title .btt{
+    margin-left: 15px;
+}
+.daughter .title .btt button{
+    font-size: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.daughter .info{
+    position: absolute;
+    right: 320px;
+    top: 56px;
+    bottom: 10px;
+    color: gray;
+}
+.daughter .info h5{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.daughter .info h4{
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.daughter .info .view{
+    margin-right: 5px;
+}
+.daughter .info .view button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.daughter .contact{
+    position: absolute;
+    right: 120px;
+    top: 56px;
+    bottom: 10px;
+    color: gray;
+}
+.daughter .contact h5{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.daughter .contact h4{
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.daughter .contact .view{
+    margin-right: 5px;
+}
+.daughter .contact .set button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.child2 .house{
+    display: flex;
+    height: 20vh;
+    margin: 2px 20px;
+    border-radius: 20px;
+    padding-left: 5px;
+    margin-top: 15px;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.house .male{
+    background-color: mediumorchid;
+    width: 20%;
+    height: 20vh;
+    z-index: 1000 !important;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.house .female{
+    display: flex;
+    background-color: transparent;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+.house .male img{
+    margin-left: 50px;
+    border-radius: 90%;
+    width: 70px;
+    height:10vh;
+    margin-top: 5px;
+    /* padding: 15px 25px; */
+    /* z-index: 1000 !important; */
+}
+.house .male h3{
+    margin-left: 60px;
+    margin-top: 8px;
+    padding: 2px 3px;
+    font-size: 15px;
+    color: white; 
+}
+.house .male p{
+    margin-left: 68px;
+    /* padding: 10px 20px; */
+    font-size: 10px;
+    color: white;
+}
+.female .nav-bar{
+    background-color: rgb(43, 182, 43);
+    display: flex;
+    width: 106%;
+    justify-content: space-between;
+    height: 7vh;
+    margin-left: -20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.female .nav-bar .box{
+    margin-left: 50px;
+}
+.nav-bar .box button{
+    border-radius: 20px;
+    padding: 5px 25px;
+    margin-top: 15px;
+    background-color: white;
+    border-style: none;
+    font-size: 10px;
+}
+.female .nav-bar .bnt{
+    margin-right: 5px;
+}
+.nav-bar .bnt button{
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: 10px;
+    border-color: white;
+    padding: 5px 25px;
+    background-color: rgb(43, 182, 43);
+}
+.female .nav-bar .ict{
+    margin-right: 5px;
+}
+.nav-bar .ict .fa{
+    margin-top: 16px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+.female .nav-bar .test{
+    margin-right: 20px;
+    margin-top: 15px;
+    position: absolute;
+    right: 210px;
+}
+.female .nav-bar .fit{
+    margin-top: 16px;
+    margin-right: 120px;
+    font-size: 15px;
+}
+.female .nav-bar .edy{
+    margin-top: 15px;
+    margin-right: 20px;
+    position: absolute;
+    right: 70px;
+}
+.female .text{
+    color: gray;
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    /* margin-left: 120px; */
+    /* margin-top: 10px; */
+}
+.female .text h5{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.female .text h4{
+    color: black;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.female .text .btt{
+    margin-left: 15px;
+}
+.female .text .btt{
+    margin-right: 5px;
+}
+.female .text .btt button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.female .fix{
+    color: gray;
+    position: absolute;
+    left: 380px;
+    top: 50px;
+    /* margin-left: 120px; */
+    /* margin-top: 10px; */
+}
+.female .fix h5{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.female .fix h4{
+    color: black;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.female .fix .view{
+    margin-left: 5px;
+}
+.female .fix .view button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato;
+}
+.female .conduct{
+    color: gray;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    /* margin-left: 120px; */
+    /* margin-top: 10px; */
+}
+.female .conduct h5{
+    font-size: 10px;
+    margin-left: 15px;
+}
+.female .conduct h4{
+    color: black;
+    margin-left: 18px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.female .conduct .set{
+    margin-left: 5px;
+}
+.female .conduct .set button{
+    font-size: 8px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: tomato;
+    padding: 5px 30px;
+    border-color: tomato
+}
+.child2 .home{
+    color: gray;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.home .it{
+    font-size: 8px;
+    margin-top: 42px;
+    margin-left: 25px;
+} 
+.home h4{
+    font-size: 10px;
+    margin-top: 40px;
+    margin-right: 790px;
+}
+.home h3{
+    font-size: 10px;
+    position: absolute;
+    right: 270px;
+    margin-top: 40px;
+}
+.home h6{
+    margin-top: 40px;
+    position: absolute;
+    right: 150px;
+}
+.home h5{
+    margin-top: 40px;
+    font-size: 10px;
+    position: absolute;
+    right: 50px;
+}
